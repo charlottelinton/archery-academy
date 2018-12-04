@@ -11,11 +11,12 @@
 
     <body>
 
-      <header>
-        <h1>Archery Academy</h1>
-        <h2>Instructors</h2>
-        <p>Address | Telephone | Email</p>
-        </header>
+      <header class="hero-image">
+        <div class="hero-text">
+          <h1>Archery Academy</h1>
+          <h2>Instructors</h2>
+        </div>
+      </header>
 
       <nav>
         <header>
@@ -43,6 +44,13 @@
         to the Point Archery also has specific instructors for recreational archery,
         competitive archery and bow hunting.</p>
 
+        <h4>See a Class in Action!</h4>
+
+        <video width="960" height="520" controls poster="images/instructor-video.jpg">
+          <source src="video/archery.mp4" type="video/mp4">
+          Your browser does not support video
+        </video>
+
         <p>Straight to the Point Archery has an excellent network of contacts with the
         USA Archery (USAA), Washington State Archery Association (WSAA), Washington
         State Bow Hunters (WSB), National Field Archery Association (NFAA) and many
@@ -58,43 +66,52 @@
         <header>
           <h3>Meet the Instructors</h3>
         </header>
-        <div>
-          <h4>Derek Jenkins</h4>
-          <img src="images/instructor-derek.png" alt="Instructor Derek Jenkins">
-          <p>Derek is a Washington native and an experienced outdoorsman with
+        <div class="instructor-grid">
+          <div id="derek">
+            <img src="images/instructor-derek.png" alt="Instructor Derek Jenkins">
+          </div>
+          <div id="derek-bio">
+            <h4>Derek Jenkins</h4>
+            <hr>
+            <p>Derek is a Washington native and an experienced outdoorsman with
             many years hunting, fishing, skiing, canoeing, archery, shooting
             and minimalistic camping. His skillful mastery of bushcraft and
             wilderness survival knowledge helps define his character. He enjoys
             handcrafting his own long bows, flint knapped primitive arrows and
             making custom leather products.</p>
-        </div>
-        <div>
-          <h4>Amy Smith</h4>
-          <img src="images/instructor-amy.png" alt="Instructor Amy Smith">
-          <p>Amy truly has a passion for archery. She comes from a long line of
+          </div>
+          <div id="amy">
+            <img src="images/instructor-amy.png" alt="Instructor Amy Smith">
+          </div>
+          <div id="amy-bio">
+            <h4>Amy Judge</h4>
+            <hr>
+            <p>Amy truly has a passion for archery. She comes from a long line of
             hunters, fisherman, and trappers of Canada. Amy  places a strong
             emphasis on safety and is enthusiastic about teaching. Amy also loves
             fitness, and  has been a YMCA group exercise and personal trainer
             for over 18 years.</p>
-        </div>
-        <div>
-          <h4>Nathan Lee</h4>
-          <img src="images/instructor-nathan.png" alt="Instructor Nathan Lee">
-          <p>Nathan is an USA Archery Certified Level 3 NTS – Coach and has been
+          </div>
+          <div id="nathan">
+            <img src="images/instructor-nathan.png" alt="Instructor Nathan Lee">
+          </div>
+          <div id="nathan-bio">
+            <h4>Nathan Jacobssen</h4>
+            <hr>
+            <p>Nathan is an USA Archery Certified Level 3 NTS – Coach and has been
             teaching archery since 2009. He has been interested in archery since
             he nocked his first arrow while a Boy Scout at Scout camp. Nathan has
             many years of experience teaching people of all ages, experience
             gained as a Martial Arts Instructor and Studio Manager.</p>
+          </div>
         </div>
       </section>
 
       <footer>
-        <img src="images/logo-color.png" alt="logo">
-        <ul>
-          <li><a href="#">Footer link 1</a></li>
-          <li><a href="#">Footer link 2</a></li>
-          <li><a href="#">Footer link 3</a></li>
-        </ul>
+        <img src="images/logo-white.png" alt="logo">
+        <p>
+          <a href="#">Footer link 1</a> / <a href="#">Footer link 2</a> / <a href="#">Footer link 3</a>
+        </p>
       </footer>
 
     </body>

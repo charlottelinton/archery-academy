@@ -11,16 +11,17 @@
 
     <body>
 
-      <header>
-        <h1>Archery Academy</h1>
-        <p>Address | Telephone | Email</p>
+      <header class="hero-image">
+        <div class="hero-text">
+          <h1>Archery Academy</h1>
+        </div>
       </header>
 
       <nav>
         <header>
           <h3 hidden>Browse the Site</h3>
         </header>
-        <ul>
+        <ul class="container">
           <li><a href="index.html">Home</a></li>
           <li><a href="#">Classes</a></li>
           <li><a href="#">Private Lessons</a></li>
@@ -69,27 +70,33 @@
         </main>
 
         <section>
-          <div>
-            <h4><a href="#">Class Calendar</a></h4>
-            <img src="images/archery-class.jpg" alt="archery class">
-          </div>
-          <div>
-            <h4><a href="#">Book a Lesson</a></h4>
-            <img src="images/archery-lesson.jpg" alt="archery lesson">
-          </div>
-          <div>
-            <h4><a href="#">Archery Gallery</a></h4>
-            <img src="images/archery-gallery.jpg" alt="archery gallery">
+          <div class="grid-container">
+            <div class="content-wrapper">
+              <img src="images/archery-class.jpg" alt="archery class">
+              <div class="text-wrapper">
+                <h4><a href="#">Class Calendar</a></h4>
+              </div>
+            </div>
+            <div class="content-wrapper">
+              <img src="images/archery-lesson.jpg" alt="archery lesson">
+              <div class="text-wrapper">
+                <h4><a href="#">Book a Lesson</a></h4>
+              </div>
+            </div>
+            <div class="content-wrapper">
+              <img src="images/archery-gallery.jpg" alt="archery gallery">
+              <div class="text-wrapper">
+                <h4><a href="#">Archery Gallery</a></h4>
+              </div>
+            </div>
           </div>
         </section>
 
       <footer>
-        <img src="images/logo-color.png" alt="logo">
-        <ul>
-          <li><a href="#">Footer link 1</a></li>
-          <li><a href="#">Footer link 2</a></li>
-          <li><a href="#">Footer link 3</a></li>
-        </ul>
+        <img src="images/logo-white.png" alt="logo">
+        <p>
+          <a href="#">Footer link 1</a> / <a href="#">Footer link 2</a> / <a href="#">Footer link 3</a>
+        </p>
       </footer>
 
     </body>
