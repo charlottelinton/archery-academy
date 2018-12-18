@@ -63,6 +63,10 @@ a {
   color: #03a3df;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   font-family: Arial, sans-serif;
   font-weight: bold;
